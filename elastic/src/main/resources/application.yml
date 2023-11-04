@@ -1,0 +1,9 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /els
+spring:
+  elasticsearch:
+    uris: http://localhost:9200
+    username: elastic
+    password: admin123
